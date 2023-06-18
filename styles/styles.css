@@ -21,6 +21,49 @@
     --font-android: 'android', cursive;
 }
 
+body {
+    background-color: var(--cor1);
+    font-family: var(--font-padrao);
+}
+
+.cabecalho {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4), var(--cor5));
+    text-align: center;
+    color: white;
+    height: 30vh;
+}
+
+.cabecalho__titulo {
+    font-family: var(--font-destaque);
+    font-size: 3em;
+    padding-top: 1em;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.347);
+}
+
+.cabecalho__texto {
+    width: 45vw;
+    margin: auto;
+    font-size: 1.3em;
+    padding: 1em;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.347)
+}
+
+.menu {
+    background-color: var(--cor5);
+    padding: 1em 0em;
+}
+
+.menu__link {
+    color: var(--cor1);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.8em 1em;
+}
+
+.menu__link:hover {
+    background-color: #2fa866;
+    border-radius: 10px;
+}
 
 /* Quando devemos usar o sinal de maior ( " > " ) para manipular elementos que estão dentro de outros elementos (filho/children)? Talvez alguns de vocês estejam na dúvida, porque tem vezes que o Guanabara usa o sinal, e outras não... E às vezes, quando inserimos o sinal nos nossos seletores, as declarações simplesmente não tem efeito...
 
